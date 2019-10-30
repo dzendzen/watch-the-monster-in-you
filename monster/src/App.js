@@ -16,10 +16,10 @@ function App() {
     
       
       <NavBar />
-      <Modal />
+  
       <Switch>
         <Route exact path="/" component={Home} />
-        
+        <Route path="/" component={Modal}/>
       </Switch>
 
       
