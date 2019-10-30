@@ -1,9 +1,9 @@
-import React, {components} from 'react';
+import React, { components } from 'react';
 import NavBar from './components/NavBar/NavBar';
-
+import Home from './components/Main/Home'
 import './App.css';
 //import axios from 'axios';
-//import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Background from './components/Background';
 
 
@@ -11,11 +11,14 @@ import Background from './components/Background';
 function App() {
   return (
     <div className="App">
-     
-      <Background />
       <NavBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+
       
-        </div>
+      <Background />
+    </div>
   );
 }
 

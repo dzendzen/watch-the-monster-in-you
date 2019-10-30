@@ -75,7 +75,7 @@ class Background extends React.Component {
                         this.x - this.w / 2, this.y - this.h / 2,
                         this.x, this.y - this.h / 2);
 
-                    ctx.strokeStyle = 'hsla(000, 100%, 40%, ' + this.a + ')';
+                    ctx.strokeStyle = 'hsla(0, 100%, 40%, ' + this.a + ')';
                     ctx.stroke();
                     ctx.closePath();
 
