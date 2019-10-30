@@ -5,7 +5,7 @@ import './App.css';
 //import axios from 'axios';
 import { Switch, Route } from 'react-router-dom';
 import Background from './components/Background';
-import Modal from './components/Modal';
+import Modal from './components/Modal/Modal';
 
 
 
@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
     
-      <Modal/>
       
       <NavBar />
+      <Modal />
       <Switch>
         <Route exact path="/" component={Home} />
       </Switch>
