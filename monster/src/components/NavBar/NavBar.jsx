@@ -3,9 +3,10 @@ import './NavBar.css';
 
 function NavBar () {
     return (
-        <div className="nav">
-            <p>Watch the monsters in you ?</p>
+        <div>
+            <p className="nav">Watch the monsters in you ?</p>
         </div>
+
     )
 }
 
