@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/monster/node_modules
+/monster/.pnp
+/monster.pnp.js
+
+# testing
+/monster/coverage
+
+# production
+/monster/build
+
+# misc
+/monster/.DS_Store
+/monster.env.local
+/monster.env.development.local
+/monster.env.test.local
+/monster.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
