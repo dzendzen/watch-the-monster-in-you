@@ -48,14 +48,14 @@ class Background extends React.Component {
             init() {
                 this.x = random(0, w);
                 this.y = 0;
-                this.color = 'hsl(1, 100%, 50%)';
+                this.color = 'hsl(000, 100%, 40%)';
                 this.w = 2;
                 this.h = 1;
                 this.vy = random(4, 5);
                 this.vw = 3;
                 this.vh = 1;
                 this.size = 2;
-                this.hit = random(h * .8, h * .9);
+                this.hit = random(h * .9, h * 1);
                 this.a = 1;
                 this.va = .96;
             }
@@ -75,7 +75,7 @@ class Background extends React.Component {
                         this.x - this.w / 2, this.y - this.h / 2,
                         this.x, this.y - this.h / 2);
 
-                    ctx.strokeStyle = 'hsla(1, 100%, 50%, ' + this.a + ')';
+                    ctx.strokeStyle = 'hsla(000, 100%, 40%, ' + this.a + ')';
                     ctx.stroke();
                     ctx.closePath();
 
