@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {components} from 'react';
+import NavBar from './components/NavBar/NavBar';
 
 import './App.css';
 //import axios from 'axios';
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
      
       <Background />
+      <NavBar />
       
         </div>
   );
