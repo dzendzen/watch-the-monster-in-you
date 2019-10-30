@@ -4,6 +4,7 @@ import './App.css';
 //import axios from 'axios';
 //import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Background from './components/Background';
+import Modal from './components/Modal';
 
 
 
@@ -12,8 +13,9 @@ function App() {
     <div className="App">
      
       <Background />
+      <Modal/>
       
-        </div>
+    </div>
   );
 }
 
