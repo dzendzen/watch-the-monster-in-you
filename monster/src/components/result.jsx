@@ -1,5 +1,7 @@
 import React from "react";
 import Monster from "./Monster"
+import Movie from "./Movies"
+import "../App.css"
 
 import Movie from "./Movies"
 
@@ -7,7 +9,11 @@ import Movie from "./Movies"
 class Result extends React.Component{
     render(){
         return(
+
+            <div className="result">
+
             <div >
+
 
                <Monster />  
                <Movie />   
@@ -15,7 +21,10 @@ class Result extends React.Component{
                <Movie />
                <Movie />
 
+
+
                <Monster/>            
+
 
             </div>
         )

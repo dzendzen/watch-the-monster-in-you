@@ -5,7 +5,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Background from './components/Background';
 import Modal from './components/Modal/Modal';
-import Result from './components/result'
+import Result from './components/result';
 
 
 
@@ -19,11 +19,9 @@ function App() {
   
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/" component={Modal}/>
 
+        <Route path="/modal" component={Modal}/>
         <Route path="/result" component={Result}/>
-
-       
 
       </Switch>
 
