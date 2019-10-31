@@ -35,9 +35,6 @@ class Monster extends React.Component {
         ) : (
           <p> No data </p>
         )}
-        <button type="button" onClick={this.getMonster}>
-          Get character
-        </button>
       </div>
     );
   }

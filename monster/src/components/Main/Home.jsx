@@ -7,7 +7,7 @@ class Home extends React.Component{
         return(
             <div >
                 <div className="btn">
-                <a  href="./modal.js">
+                <a  href="../modal">
                 <button  className="btn-home" type="button"> Click me                 
                 </button>
                 </a>
