@@ -14,8 +14,11 @@ li{
 }
 input{
     margin-left: 15px;
-    
+
 }
+
+    
+
 
 .questions{
     font-family: 'Eater', cursive;
@@ -27,4 +30,5 @@ input{
     border: red;
     border-radius: 5%;
     margin-top: 15px;
+
 }
