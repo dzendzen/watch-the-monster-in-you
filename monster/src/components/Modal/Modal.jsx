@@ -3,6 +3,8 @@ import './modal.css';
 import '../NavBar/Grid/Grid.css';
 import Result from "../result"
 
+import Result from "../result"
+
 
 
 class Modal extends React.Component {
@@ -27,7 +29,7 @@ class Modal extends React.Component {
                                         <li>I love playing around with my saw.<input type="checkbox" name="audio" /></li>
                                 </ul>
                                 <div>
-                                        <a href="../result">
+                                        <a href="../../result.js">
                                                 <button className="btn-home" type="button"> Click me
                                                 </button>
                                         </a>
@@ -36,4 +38,9 @@ class Modal extends React.Component {
                 );
         }
 }
-export default Modal;
+
+
+
+
+
+
