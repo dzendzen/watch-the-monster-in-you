@@ -15,13 +15,14 @@ class Monster extends React.Component {
     this.getMonster();
   }
 
-  getMonster() {
-    axios
+  getMonster() {   
+    let idRandom = Number(Math.floor(Math.random() * 20));
+     axios
       .get("https://hackathon-wild-hackoween.herokuapp.com/monsters")
       .then(response => response.data)
       .then(data => {
         this.setState({
-          monster: data.monsters[0]
+          monster: data.monsters[idRandom]
         });
       });
   }
