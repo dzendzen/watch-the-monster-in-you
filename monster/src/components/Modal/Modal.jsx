@@ -15,6 +15,10 @@ class Modal extends React.Component{
         <li>My favorite tools are saws</li>
         <li>I love fried eyes for breakfast</li>
       </ul>
+      <a  href="../result.jsx">
+                <button  className="btn-home" type="button"> Click me                 
+                </button>
+                </a>
 </div>
         );
 }}
