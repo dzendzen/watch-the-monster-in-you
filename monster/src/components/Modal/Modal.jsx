@@ -1,6 +1,7 @@
 import React from 'react';
 import './modal.css';
 import '../NavBar/Grid/Grid.css';
+
 import Result from "../result"
 
 
@@ -36,4 +37,10 @@ class Modal extends React.Component {
                 );
         }
 }
+
+
+
+
+
+
 export default Modal;
