@@ -31,6 +31,21 @@
     .mob-11{width: 91.66%;}
     .mob-12{width: 100%;}
 }
+@media screen and (max-width:500px){
+    .mob-offset-0{display: none;}
+    .mob-offset-1{margin-left: 8.33%;}
+    .mob-offset-2{margin-left: 16.66%;}
+    .mob-offset-3{margin-left: 25%;}
+    .mob-offset-4{margin-left: 33.33%;}
+    .mob-offset-5{margin-left: 41.66%;}
+    .mob-offset-6{margin-left: 50%;}
+    .mob-offset-7{margin-left: 58.33%;}
+    .mob-offset-8{margin-left: 66.66%;}
+    .mob-offset-9{margin-left: 75%;}    
+    .mob-offset-10{margin-left: 83.33%;}
+    .mob-offset-11{margin-left: 91.66%;}
+    .mob-offset-12{margin-left: 100%;}
+}
 @media screen and (min-width:500px) and (max-width:1023px){
     .tab-0{display: none;}
     .tab-1{width: 8.33%;}
@@ -46,6 +61,20 @@
     .tab-11{width: 91.66%;}
     .tab-12{width: 100%;}
 }
+@media screen and (min-width:500px) and (max-width:1023px){
+    .tab-offset-0{display: none;}
+    .tab-offset-1{margin-left: 8.33%;}
+    .tab-offset-2{margin-left: 16.66%;}
+    .tab-offset-3{margin-left: 25%;}
+    .tab-offset-4{margin-left: 33.33%;}
+    .tab-offset-5{margin-left: 41.66%;}
+    .tab-offset-6{margin-left: 50%;}
+    .tab-offset-8{margin-left: 66.66%;}
+    .tab-offset-9{margin-left: 75%;}
+    .tab-offset-10{margin-left: 83.33%;}
+    .tab-offset-11{margin-left: 91.66%;}
+    .tab-offset-12{margin-left: 100%;}
+}
 @media screen and (min-width:1023px) {
     .dsk-0{display: none;}
     .dsk-1{width: 8.33%;}
@@ -60,4 +89,19 @@
     .dsk-10{width: 83.33%;}
     .dsk-11{width: 91.66%;}
     .dsk-12{width: 100%;}
+}
+@media screen and (min-width:1023px) {
+    .dsk-offset-0{display: none;}
+    .dsk-offset-1{margin-left: 8.33%;}
+    .dsk-offset-2{margin-left: 16.66%;}
+    .dsk-offset-3{margin-left: 25%;}
+    .dsk-offset-4{margin-left: 33.33%;}
+    .dsk-offset-5{margin-left: 41.66%;}
+    .dsk-offset-6{margin-left: 50%;}
+    .dsk-offset-7{margin-left: 58.33%;}
+    .dsk-offset-8{margin-left: 66.66%;}
+    .dsk-offset-9{margin-left: 75%;}
+    .dsk-offset-10{margin-left: 83.33%;}
+    .dsk-offset-11{margin-left: 91.66%;}
+    .dsk-offset-12{margin-left: 100%;}
 }
