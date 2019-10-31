@@ -25,13 +25,18 @@ class Modal extends React.Component{
         <li className ="questions">What's your favorite tool ?</li>
         <li>My chainsaw is my best friend.<input type="checkbox" name="audio"/></li>
         <li>I love playing around with my saw.<input type="checkbox" name="audio"/></li>
+
       </ul>    
   </div>
 
-  <div>
-      <button className="confirm">Confirm</button>
-  </div>
-</div>
+ 
+      </ul>
+      <a  href="../result.jsx">
+                <button  className="btn-home" type="button"> Click me                 
+                </button>
+                </a>
+
+          </div>
         );
 }}
 export default Modal;
