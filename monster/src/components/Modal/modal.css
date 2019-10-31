@@ -14,7 +14,17 @@ li{
 }
 input{
     margin-left: 15px;
+    
 }
+
 .questions{
     font-family: 'Eater', cursive;
+}
+.confirm{
+    font-family: 'Eater', cursive;
+    background-color: red;
+    color: black;    
+    border: red;
+    border-radius: 5%;
+    margin-top: 15px;
 }
