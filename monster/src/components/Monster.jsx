@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
-import DisplayMonster from "./DisplayMonster"
+import DisplayMonster from "./DisplayMonster";
+
 
 class Monster extends React.Component {
   constructor(props) {

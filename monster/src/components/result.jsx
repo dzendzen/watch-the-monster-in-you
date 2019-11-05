@@ -1,32 +1,22 @@
 import React from "react";
-import Monster from "./Monster"
-import Movie from "./Movies"
-import "../App.css"
-
-import Movie from "./Movies"
-
+import Monster from "./Monster";
+import Movie from "./Movies";
+import './monster.css';
 
 class Result extends React.Component{
     render(){
         return(
 
-            <div className="result">
-
-            <div >
-
-
-               <Monster />  
+            <div className="row tab-12">
+            
+                   
                <Movie />   
-               <Movie />  
+               <Movie />
+               <Monster />        
                <Movie />
                <Movie />
-
-
-
-               <Monster/>            
-
-
-            </div>
+             
+           </div>
         )
     }
 }

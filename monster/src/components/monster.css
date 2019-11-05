@@ -1,0 +1,58 @@
+.DisplayMonster{
+    color: white;
+    
+}
+.DisplayMovie{
+    color:white;
+}
+
+.row{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.monsterName{
+    font-family:'Eater', cursive;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color:white;    
+    white-space: nowrap;
+    text-align: center;
+}
+@media screen and (max-width:499px){
+    .monsterImg, .MovieImg{
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-width:500px) and (max-width:1024px){
+    .monsterImg{
+        width:15vw ;
+        height: auto;
+        justify-content: space-around;
+
+    }
+    .MovieImg{
+        width: 10vw;
+        height: auto;
+    }
+    
+    
+}
+@media screen and (min-width:1023px) {
+    .monsterImg{
+        width: 20vw;
+        height: auto;
+    }
+    .movieImg{
+        width: 15vw;
+        height:auto;
+        margin-top: 10px;
+    }
+    .h3{      
+        font-family: 'Eater', cursive; 
+        font-weight: 300;
+        text-align: center;
+        padding:10px;    
+    }
+}

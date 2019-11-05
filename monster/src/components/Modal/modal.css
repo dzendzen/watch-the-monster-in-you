@@ -25,10 +25,12 @@ input{
 }
 .confirm{
     font-family: 'Eater', cursive;
-    background-color: red;
-    color: black;    
-    border: red;
-    border-radius: 5%;
+    background-color: black;
+    color:red;    
+    border: black;
+    border-radius: 10%;
     margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
 
 }

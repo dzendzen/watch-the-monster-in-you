@@ -18,10 +18,6 @@ class Movie extends React.Component {
 
   getMovie() {   
     let idRandom = Number(Math.floor(Math.random() * 82));
-
-  getMonster() {   
-    let idRandom = Number(Math.floor(Math.random() * 20));
-
      axios
       .get("https://hackathon-wild-hackoween.herokuapp.com/movies")
       .then(response => response.data)
@@ -41,10 +37,6 @@ class Movie extends React.Component {
           <p> No data </p>
         )}
 
-
-        <button type="button" onClick={this.getMovie}>
-          Get character
-        </button>
 
       </div>
     );
