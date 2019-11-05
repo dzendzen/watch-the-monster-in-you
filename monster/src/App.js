@@ -13,19 +13,12 @@ import Result from './components/result';
 function App() {
   return (
     <div className="App">
-    
-      
       <NavBar />
-  
-      <Switch>
-        <Route exact path="/" component={Home} />
-
+        <Switch>
+        <Route exact path="/" component={Home}/>
         <Route path="/modal" component={Modal}/>
         <Route path="/result" component={Result}/>
-
-      </Switch>
-
-      
+      </Switch>      
       <Background />
     </div>
   );

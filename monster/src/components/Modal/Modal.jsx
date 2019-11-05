@@ -1,9 +1,6 @@
 import React from 'react';
 import './modal.css';
 import '../NavBar/Grid/Grid.css';
-import Result from "../result"
-
-import Result from "../result"
 
 
 
@@ -11,7 +8,7 @@ class Modal extends React.Component {
         render() {
                 return (
 
-                        <div className="dsk-offset-3 modal">
+                        <div className="modal dsk-offset-3 dsk-6 tab-offset-2 tab-8 mob-offset-1 mob-10">
                                 <ul >
                                         <li className="questions">What's your favorite cocktail ?</li>
                                         <li>I love Bloody Mary.<input type="checkbox" name="audio" /></li>
@@ -29,8 +26,8 @@ class Modal extends React.Component {
                                         <li>I love playing around with my saw.<input type="checkbox" name="audio" /></li>
                                 </ul>
                                 <div>
-                                        <a href="../../result.js">
-                                                <button className="btn-home" type="button"> Click me
+                                        <a href="../../result">
+                                                <button className="confirm" type="button"> Confirm
                                                 </button>
                                         </a>
                                 </div>
@@ -39,7 +36,7 @@ class Modal extends React.Component {
         }
 }
 
-
+export default Modal;
 
 
 
