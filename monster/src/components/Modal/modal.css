@@ -1,0 +1,36 @@
+.modal {
+    background: red;
+    width: 50%;
+    height: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 5%;    
+    opacity: 1; 
+      
+}
+li{
+    margin-top:15px;
+    padding: 5px;
+}
+input{
+    margin-left: 15px;
+
+}
+
+    
+
+
+.questions{
+    font-family: 'Eater', cursive;
+}
+.confirm{
+    font-family: 'Eater', cursive;
+    background-color: black;
+    color:red;    
+    border: black;
+    border-radius: 10%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+
+}

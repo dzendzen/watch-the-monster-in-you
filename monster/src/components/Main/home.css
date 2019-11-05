@@ -1,0 +1,37 @@
+.btn-home{ 
+    margin:  auto 1rem;
+    border: 5px solid red;
+    background-color: black;
+    color: red;
+    font-size: 3vw;
+    text-decoration: none;
+    padding: 5vw 15vw;
+    border-radius: 15px;
+
+    font-family: 'Eater', cursive; 
+
+
+}
+
+.btn-home:hover{
+    transform: scale(1.5);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+
+    
+   
+}
+
+   
+
+
+   
+
+
+

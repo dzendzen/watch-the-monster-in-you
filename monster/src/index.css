@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
-	background: black;
+  background-image: url("https://s2.best-wallpaper.net/wallpaper/1920x1200/1806/Horror-hands-face-blood-glass-rain_1920x1200.jpg");
+  /*background-image: url("http://www.papeldeparede.blog.br/wp-content/uploads/2018/08/papeis-de-parede-para-celular-de-terror-1.jpg");*/
 }
 
 code {
