@@ -1,10 +1,11 @@
 # cat-s-eyes
-premier Hackaton interne sur 24h , par équipe de 3 ( avec Virginie Hodin et Alexandra Brazy.
-contraintes:
+Premier Hackaton interne sur 24h , par équipe de 3 ( avec Virginie Hodin et Alexandra Brazy).
+
+Contraintes:
 utilisation API "films d'horreur" et  "monstres"
 utilisation ReactJS
 UX
-sujet libre dans le respect des contraintes
+Sujet libre dans le respect des contraintes.
 
 Nous avons choisi de créer un site avec une interface très simple
 et le même background animé sur chaque page et barre de navigation identique.
@@ -16,8 +17,8 @@ puis proposition d'une liste de 4 films (en random) en fonction du monstre attri
 Page d'accueil: barre de navigation avec nom du site "watch your monster"
 un gros bouton au centre de la page (hover,click)pour accéder au questionnaire.
 
-page questionnare: avec checkbox après chaque réponse possible,
+Page questionnare: avec checkbox après chaque réponse possible,
 bouton confirm en bas de page.
 
-page films: image du monstre au centre, et affiches films de part et d'autre
+Page films: image du monstre au centre, et affiches films de part et d'autre
 avec tître+année.
