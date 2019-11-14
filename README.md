@@ -1,5 +1,5 @@
 # cat-s-eyes
-premier Hackaton interne sur 24h
+premier Hackaton interne sur 24h , par équipe de 3 ( avec Virginie Hodin et Alexandra Brazy.
 contraintes:
 utilisation API "films d'horreur" et  "monstres"
 utilisation ReactJS
