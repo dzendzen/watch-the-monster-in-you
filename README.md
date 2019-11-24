@@ -22,3 +22,15 @@ bouton confirm en bas de page.
 
 Page films: image du monstre au centre, et affiches films de part et d'autre
 avec tître+année.
+
+et voici les liens vers les screenshots.
+page d'accueil : 
+https://zupimages.net/up/19/47/uz9z.png .
+page de sélection : 
+https://zupimages.net/up/19/47/57fb.png .
+page de résultat : 
+https://zupimages.net/up/19/47/eu9p.png .
+
+nous avons dans l'idée de faire un bouton pour le retour vers la page d'accueil,
+ainsi que 'd'organiser' le random du résultat
+
